@@ -1,0 +1,54 @@
+{
+  "q1_industry_mode": "technology",
+  "q2_candidate_correlations": {
+    "interaction_count and lead_score": 0.9157457980418697,
+    "number_of_courses_viewed and lead_score": 0.7572042392104886,
+    "number_of_courses_viewed and interaction_count": 0.7216090038937035,
+    "annual_income and interaction_count": 0.12284235135955959
+  },
+  "q3_mutual_information": {
+    "lead_source": 0.03,
+    "employment_status": 0.02,
+    "industry": 0.0,
+    "location": 0.0
+  },
+  "q4_validation_accuracy": 0.65,
+  "q5_feature_elimination": {
+    "lead_source": {
+      "accuracy_without_feature": 0.642,
+      "accuracy_difference": 0.0030000000000000027
+    },
+    "number_of_courses_viewed": {
+      "accuracy_without_feature": 0.643,
+      "accuracy_difference": 0.0020000000000000018
+    },
+    "interaction_count": {
+      "accuracy_without_feature": 0.601,
+      "accuracy_difference": 0.04400000000000004
+    }
+  },
+  "q6_validation_accuracy_by_C": [
+    {
+      "C": 1e-06,
+      "accuracy": 0.598,
+      "rounded_accuracy": 0.598
+    },
+    {
+      "C": 1e-05,
+      "accuracy": 0.598,
+      "rounded_accuracy": 0.598
+    },
+    {
+      "C": 0.0001,
+      "accuracy": 0.613,
+      "rounded_accuracy": 0.613
+    },
+    {
+      "C": 0.001,
+      "accuracy": 0.645,
+      "rounded_accuracy": 0.645
+    }
+  ],
+  "q6_best_C": 0.001,
+  "holdout_test_accuracy": 0.669
+}
